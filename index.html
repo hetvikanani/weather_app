@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-inline">
+        <input
+          type="text"
+          id="inputcity"
+          class="form-control form-control-lg"
+          placeholder="Enter city Name"
+        />
+        <button class="btn btn-dark btn-lg">Check</button>
+      </div>
+    </div>
+    <div class="weather-info">
+      <div class="city-details">
+        <div class="locatin-details extra">
+          <span id="city"><a id="citya" target="_"></a></span>
+          <span id="state"></span>
+          <span id="country"></span>
+        </div>
+        <div class="temp-details extra">
+          <span id="tmp"></span>
+          <div class="last">
+            <img id="logo" />
+            <span id="weather_descriptions"></span>
+          </div>
+        </div>
+      </div>
+      <div class="extra-details extra">
+        <span> </span>
+        <span> </span>
+        <span></span>
+        <span></span>
+
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
